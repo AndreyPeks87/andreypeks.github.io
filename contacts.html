@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"> <img class="logo_img" src="img_small/logotip_2.png" alt="Fitness - It`s life"> </div>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <h1 class="writeUs">Напишите нам</h1>
+        <form action="#" method="post" name="FAQ">
+           <fieldset class="FAQ">
+           <legend>Обратная связь</legend>
+                   <fieldset class="genderWrapper">
+                       <legend class="gender">Пол</legend> 
+                       <p class="gender genderOne"><input type="radio" name="gender" value="M">Мужчина</p>
+                        <p class="gender"><input type="radio" name="gender" value="W">Женщина</p>
+                   </fieldset>
+                    
+                <label for="name">Имя</label>
+                    <input class="writeToUs" type="text" name="name" placeholder="Ваше имя"> 
+        
+                <label for="email">Email</label>
+                    <input class="writeToUs email" type="email" name="email" placeholder="Ваш Email"> 
+            
+                <label for="theme">Тема</label>
+                    <input class="writeToUs" type="text" name="theme" placeholder="Тема письма"> 
+                <label for="textarea">Текст сообщения</label> 
+            <textarea id="textarea" name="textarea" cols="42" rows="7"></textarea>
+                <p class="checkbox"><input type="checkbox" name="flag" value="orderCallBack"
+                >Заказать обратный звонок</p>
+                <label for="tel">Контактный телефон</label>
+                    <input class="writeToUs" type="tel" name="tel" placeholder="+7(951)075-07-27">
+               
+                <input type="submit" value="Отправить">
+                
+            </fieldset>
+        </form>
+        <h2 class="address">Адрес</h2>
+        <div class="addressP">
+           <p><b>Связаться с нами можно по номеру:</b> +7(951)075-07-27</p>
+        <p><b>Адрес:</b> г. Курск, ул. Можаевская, 7А</p>
+        <p><b>Email:</b> peks-87@mail.ru</p> 
+        </div>
+        
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2a18ca1bf136fed87281be814db9c4427a3e632fff2faab8ba277fd0c1f94e7d&amp;source=constructor" width="100%" height="374" frameborder="0"></iframe>
+        <div class="clr"></div>
+    </div>
+    <div class="footer">
+        <p>Все права защищены &copy;&nbsp;2019</p>
+    </div>
+</body>
+
+</html>

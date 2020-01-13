@@ -1,0 +1,484 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+.container {
+    max-width: 1100px;
+    min-width: 975px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+hr {
+    margin: 0;
+}
+
+/*Стили header для всех страниц*/
+
+.header {
+    min-height: 249px;
+    background-image: url(img/header.jpg);
+    border-bottom: 1px solid #9A9A9A;
+}
+
+.logo {
+    margin-left: 186px;
+    margin-top: 68px;
+    float: left;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 85px;
+    display: inline-block;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-top: 110px;
+    margin-right: 90px;
+    float: left;
+}
+
+.menu li:last-child {
+    margin-right: 100px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    color: #677b82;
+    font-size: 22px;
+}
+
+.menu li a:hover {
+    color: #F594BB;
+}
+
+.menu li a:active {
+    color: #58ccda;
+}
+
+/*Стили на странице index.html*/
+
+.wrapper {
+    width: 664px;
+}
+
+h1.main {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+.Life {
+    color: #E4437C;
+}
+
+.Fitness {
+    color: #58ccda;
+}
+
+.welcome {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-color: #E8E6E7;
+    border-top: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+}
+
+.quote {
+    margin-bottom: 30px;
+    border-left: 4px solid powderblue;
+    padding-left: 15px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+}
+
+span.author {
+    display: block;
+    margin-right: 10px;
+    margin-top: 14px;
+    text-transform: lowercase;
+    color: cadetblue;
+}
+
+span.Leo {
+    margin-right: 92px;
+}
+
+span.Addison {
+    margin-right: 62px;
+}
+
+/*Стили на странице catalog.html*/
+
+h1.titleCatalog {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #E4437C;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+}
+
+h1.titleMens {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #2FB7C9;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+}
+
+.myGoods {
+    display: inline-block;
+}
+
+a.catalog {
+    display: block;
+}
+
+.goodImg:hover {
+    outline: 3px solid #ccc;
+}
+
+.goodImg:active {
+    outline: none;
+}
+
+div.goods {
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 125px;
+    text-align: center;
+}
+
+div.goods a.link {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+    color: #6a5b5b;
+    font-weight: 300;
+}
+
+div.goods a.mens:hover {
+    color: #58ccda;
+}
+
+div.goods a.mens:active {
+    color: #37939e;
+}
+
+div.goods a.womens:hover {
+    color: #E4437C;
+}
+
+div.goods a.womens:active {
+    color: #b03661;
+}
+
+/*Стили на странице contacts.html*/
+
+form {
+    border: 3px solid #DAEAEC;
+    border-radius: 6px;
+    width: 400px;
+    padding: 10px;
+}
+
+h1.writeUs {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    color: #6c6c6c;
+}
+
+fieldset.FAQ {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0 2px;
+}
+
+.genderWrapper {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+legend.gender {
+    margin-left: 10px;
+}
+
+form p.gender {
+    display: inline-block;
+}
+
+form p.genderOne {
+    margin-right: 10px;
+    margin-left: 14px;
+}
+
+input[name="gender"] {
+    margin-right: 5px;
+}
+
+form label {
+    display: block;
+}
+
+input.writeToUs {
+    width: 360px;
+    height: 24px;
+    color: #221E1E;
+    font-family: "Times new roman", Georgia, serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+#textarea {
+    width: 352px;
+    height: 105px;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.email:focus {
+    color: #855D8B;
+    background-color: #DAEAEC;
+}
+
+p.checkbox {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="tel"] {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 87px;
+    border-radius: 5px;
+    background-color: #DAEAEC;
+}
+
+input[type="submit"]:hover {
+    color: cornflowerblue;
+}
+
+h2.address {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.addressP {
+    margin-left: 42px;
+    margin-bottom: 15px;
+}
+
+.addressP p {
+    margin-bottom: 5px;
+}
+
+ymaps {
+    margin-bottom: 20px;
+}
+/*Стили на страницах товаров каталога (top, leggins, tracksuit*/
+
+.headers {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2.characteristic {
+    margin-bottom: 25px;
+}
+
+p.brief {
+    color: #707070;
+    font-size: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.detailed {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.another {
+    font-family: Verdana, sans-serif;
+    color: #A38E8E;
+    font-size: 17px;
+    line-height: 30px;
+    list-style-image: url(img_small/15x15.png);
+    padding-left: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.care {
+    color: #373535;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 18px;
+}
+
+.img {
+    outline: 3px solid #ccc;
+}
+
+.img:hover {
+    outline: none;
+}
+
+.parameters {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-left: 17px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    color: #484343;
+}
+
+.catalog.woman::first-letter {
+    color: #E4437C;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+.catalog.man::first-letter {
+    color: #2FB7C9;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.two {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-left: 22px;
+}
+
+.two th {
+    height: 40px;
+}
+
+.linkImg {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+h2.headers.second {
+    clear: both;
+    margin-top: 20px;
+}
+
+h2.first {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+button.buy {
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 105px;
+    height: 40px;
+    padding: 0;
+}
+
+button.buy:hover {
+    background-color: #F594BB;
+}
+
+button .textBuy:active {
+    color: aliceblue;
+}
+
+button.buyMens:hover {
+    background-color: #9AE1ED;
+}
+
+button .textBuyMens:active {
+    color: #656565;
+}
+
+button.buy a {
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    padding-top: 10px;
+}
+
+/*Стили для footer на всех страницах*/
+
+.clr {
+    height: 99px;
+    margin-top: 30px;
+}
+
+.footer {
+    height: 99px;
+    background-color: #E6E4E5;
+    text-align: right;
+    clear: both;
+    border-top: 1px solid #9A9A9A;
+    /*margin-top: 20px;*/
+    margin: -99px auto 0;
+    max-width: 1100px;
+}
+
+.footer p {
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
